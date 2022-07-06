@@ -1,9 +1,9 @@
 FROM python:3.7.3-stretch
 
-# Working Directory
+# Create a Working Directory
 WORKDIR /app
 
-# Copy source code to working directory
+# Copy flask app OR source code to working directory
 COPY . app.py /app/
 
 # Install packages from requirements.txt
